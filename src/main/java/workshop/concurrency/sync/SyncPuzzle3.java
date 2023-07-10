@@ -3,6 +3,9 @@ package workshop.concurrency.sync;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * Change exactly one character to block the thread "blockMe"!
+ */
 public class SyncPuzzle3 {
 
     private static final Object MONITOR = "LOCK1";
